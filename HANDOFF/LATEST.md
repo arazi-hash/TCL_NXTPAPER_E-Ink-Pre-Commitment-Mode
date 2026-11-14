@@ -1,4 +1,4 @@
-# Latest checkpoint — beta.2 live on GitHub, CoreFetch indexing pending
+# Latest checkpoint — beta.3 live on GitHub, CoreFetch indexing pending
 
 8 November 2026, Bahrain. Founder authorized release and chose the exact name NXTPAPER_E-Ink-Pre-Commitment-Mode. [Detailed release record](tasks/corefetch-beta2-release-2026-11-08.md). The existing GitHub repository address and About description were preserved, as was the English and Arabic store description copy.
 
@@ -8,3 +8,7 @@
 - 56 Android tests passed for the final build, release lint zero errors with 19 pre-existing warnings. No success percentage is available for other NXTPAPER models. The full beta.1 timing trials and beta.2 tester experience are recorded separately in FINDINGS.md.
 
 Next check the live CoreFetch list and details after indexing or rerun Verify CoreFetch sync. Keep private acceptance APKs, raw captures and pre-existing handoff archives local. No source or device operation remains in progress.
+
+The [GitHub Actions audit](tasks/github-storage-audit-2026-11-08.md) verified and archived one temporary Android test build locally, removed it from `arazi-hash/com.analoganchor.app`, and confirmed zero remaining Actions artifacts there. CoreFetch indexing is separate from storage.
+
+The founder approved publication of the [website language update](tasks/website-language-2026-11-08.md). Public prerelease `v1.0.6-beta.3` / code 9 and the default branch manifest are live at `82888aa`. The public asset API download matched SHA256 `50421cf15038bcdfd4c42b1742f921c7ecd8b954ecad6eb57c3f37d01a30e294`. The direct GitHub download route returned HTTP 504 during verification. [CoreFetch check 42471030329](https://github.com/arazi-hash/AnalogAnchor_NXTPAPER_E-Ink-Pre-Commitment-Mode/actions/runs/42471030329) started, and the store still listed beta.1 on the final read. The TCL remains on beta.2 with setup complete. Its private beta.3 test copy is local.
